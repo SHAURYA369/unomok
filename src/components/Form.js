@@ -94,7 +94,7 @@ export default function Form() {
                     name="dob"
                 />
 
-                {submitted && !values.dob ? <span id="dob-error">Please enter an email address</span> : null}
+                {submitted && !values.dob ? <span id="dob-error">Please enter dob</span> : null}
 
                 <input
                     onChange={handleChange}
